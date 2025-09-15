@@ -24,8 +24,8 @@ Pastikan Anda memiliki [Node.js](https://nodejs.org/) (versi 18 atau lebih tingg
 1.  **Clone Repositori**
 
     ```bash
-    git clone https://github.com/URL_REPO_ANDA/nama-repo.git
-    cd nama-repo
+    git clone [https://github.com/Irfan225/Instagram-snipper]
+    cd Instagram-snipper
     ```
 
 2.  **Instalasi Dependensi**
