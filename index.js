@@ -84,7 +84,7 @@ async function checkFeeds() {
         if (hasKeyword) {
           console.log(`✨ Ditemukan feed baru dari @${username} dengan kata kunci!`);
           const postUrl = `https://www.instagram.com/p/${item.code}/`;
-          const message = `📢 Postingan baru dari @${username}\n📝 Caption: ${item.caption.text.substring(0, 100)}...\n🔗 Link: ${postUrl} \n byInfra225`;
+          const message = `📢 Postingan baru dari @${username}\n📝 Caption: ${item.caption.text.substring(0, 100)}...\n🔗 Link: ${postUrl} \n Infra225`;
           await sendWhatsAppNotification(message);
         }
         seenFeedIds.add(item.id);
@@ -122,7 +122,7 @@ async function checkStories() {
       }
       if (link) {
         console.log(`✨ Ditemukan story baru dengan LINK dari @${username}!`);
-        const message = `📢 Story baru dari @${username}\n🔗 Link: ${link} \n by Infra225`;
+        const message = `📢 Story baru dari @${username}\n🔗 Link: ${link} \n Infra225`;
         await sendWhatsAppNotification(message);
       }
       seenStoryIds.add(storyId);

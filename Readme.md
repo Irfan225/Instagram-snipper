@@ -1,3 +1,5 @@
+-----
+
 # Instagram Story & Feed Sniper Bot
 
 Bot Node.js sederhana untuk memantau akun Instagram tertentu dan mengirimkan notifikasi ke API WhatsApp saat ada konten baru yang sesuai dengan kriteria.
@@ -76,9 +78,12 @@ Untuk produksi atau penggunaan jangka panjang di server, sangat disarankan mengg
     ```bash
     pm2 logs ig-sniper
     ```
+
 -----
 
 ## 📝 Catatan Tambahan
 
   - **Keamanan Akun**: Menggunakan bot untuk mengotomatisasi interaksi dengan Instagram memiliki risiko. Gunakan dengan bijak dan pertimbangkan untuk menggunakan akun sekunder. Menaikkan `POLL_INTERVAL_MS` ke nilai yang lebih tinggi (misalnya 5-10 menit) dapat mengurangi risiko akun ditandai.
   - **Sesi Login**: Jika Anda mengalami masalah login, coba hapus file `ig-session.json` untuk memaksa bot melakukan login ulang penuh.
+
+-----
